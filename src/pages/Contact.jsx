@@ -63,9 +63,9 @@ export default function Contact() {
             {c.items.map((item, i) => (
               <div
                 key={i}
-                className="flex items-center justify-between bg-[var(--color-surface-container)] border border-[var(--color-outline-variant)] px-4 py-3"
+                className="flex items-center justify-between gap-4 bg-[var(--color-surface-container)] border border-[var(--color-outline-variant)] px-4 py-3"
               >
-                <span className="font-['JetBrains_Mono'] text-[10px] font-bold text-[var(--color-on-surface-variant)] uppercase">
+                <span className="font-['JetBrains_Mono'] text-[10px] font-bold text-[var(--color-on-surface-variant)] uppercase shrink-0">
                   {item.label}
                 </span>
                 {item.href ? (
@@ -76,7 +76,7 @@ export default function Contact() {
                     {item.value}
                   </a>
                 ) : (
-                  <span className="font-['JetBrains_Mono'] text-xs font-bold text-[var(--color-on-surface)]">
+                  <span className="font-['JetBrains_Mono'] text-xs font-bold text-[var(--color-on-surface)] text-right break-all">
                     {item.value}
                   </span>
                 )}

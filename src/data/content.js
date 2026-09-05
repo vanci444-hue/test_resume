@@ -177,8 +177,7 @@ export const content = {
       items: [
         { label: '邮箱', value: 'vanci444@gmail.com', href: 'mailto:vanci444@gmail.com' },
         { label: '手机/微信', value: '18618463115', href: 'tel:+8618618463115' },
-        { label: '求职方向', value: 'AI 产品经理', href: null },
-        { label: '英语水平', value: '可作为工作语言', href: null },
+        { label: 'GitHub', value: 'https://github.com/vanci444-hue/test_resume', href: null },
       ],
       edu: 'Purdue University 硕士（QS 88，全额奖学金）· 北京理工大学本科（985）',
       footer: '欢迎探讨AI产品机会与合作',
@@ -367,8 +366,7 @@ export const content = {
       items: [
         { label: 'EMAIL', value: 'vanci444@gmail.com', href: 'mailto:vanci444@gmail.com' },
         { label: 'PHONE/WECHAT', value: '+86 186-1846-3115', href: 'tel:+8618618463115' },
-        { label: 'TARGET ROLE', value: 'AI Product Manager', href: null },
-        { label: 'LANGUAGES', value: 'Chinese (Native) · English (Professional)', href: null },
+        { label: 'GitHub', value: 'https://github.com/vanci444-hue/test_resume', href: null },
       ],
       edu: 'Purdue University M.S. (QS 88, Full Scholarship) · BIT B.E. (985)',
       footer: 'Open to AI product opportunities and collaborations',
