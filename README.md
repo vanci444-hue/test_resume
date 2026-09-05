@@ -1,16 +1,27 @@
-# React + Vite
+# test_resume
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+JQ Zhao 个人网站。GitHub Pages 从 `main` 分支的 `/docs` 目录托管。
 
-Currently, two official plugins are available:
+预览地址：https://vanci444-hue.github.io/test_resume/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 本地开发
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 重新构建并更新托管文件
 
-## Expanding the Oxlint configuration
+```bash
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+产物会写入仓库根目录的 `docs/`，并复制一份 `404.html` 以支持前端路由刷新。
+
+## GitHub Pages 设置
+
+1. 打开仓库 **Settings → Pages**
+2. Source 选 **Deploy from a branch**
+3. Branch 选 **main**，Folder 选 **/docs**
+4. Save
